@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Nunito regular";
+  src: url(/assets/fonts/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: "Nunito bold";
+  src: url(/assets/fonts/Nunito-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +17,9 @@
   }
   
   body {
-    background-color: #fff;
+    background-color: #ececec;
     color: #292a2c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito bold', sans-serif;
   }
   
   body p {
@@ -95,7 +103,7 @@
   
   #home {
     width: 100%;
-    background-color: #fff;
+    background-color: #ececec;
     min-height: 100vh;
   }
   
@@ -119,8 +127,8 @@
   }
   
   .button-cta {
-    color: #fff;
-    background-color: #fd7d4e;
+    color: #ececec;
+    background-color: #e6acad;
     border-radius: 50px;
     width: 150px;
     margin: 15px 0;
@@ -134,12 +142,12 @@
   }
   
   .button-cta:hover {
-    color: #fff;
-    background-color: #707070;
+    color: #ececec;
+    background-color: #808080;
   }
   
   .work {
-    background-color: #fff;
+    background-color: #ececec;
     height: auto;
     width: 100%;
     display: flex;
@@ -173,7 +181,7 @@
   .about {
     width: 100%;
     min-height: 50vh;
-    background-color: #fff;
+    background-color: #ececec;
   }
   
   
@@ -213,7 +221,7 @@
     display: flex;
     height: 30vh;
     justify-content: center;
-    background-color: #1c1c1c;
+    background-color: #292a2c;
   }
   
   .skills-container{
@@ -238,7 +246,7 @@
   .contact {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #ececec;
   }
   
   .contact-form {
@@ -282,31 +290,31 @@
   input[type=email], select, textarea {
     width: 100%;
     background-color: transparent;
-    border: 1px solid #fd7d4e;
+    border: 1px solid #e6acad;
     border-radius: 8px;
     resize: vertical;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Regular', sans-serif;
     outline: none;
     margin: 15px 0px 0px;
     padding: 15px 15px;
   }
   
   input[type=email]:focus {
-    background-color: #fff;
+    background-color: #ececec;
   }
   
   textarea:focus {
-    background-color: #fff;
+    background-color: #ececec;
   }
   
   input[type=submit] {
     width: 100%;
-    background-color: #fd7d4e;
+    background-color: #e6acad;
     border: 1px solid;
     border-radius: 50px;
     cursor: pointer;
     text-align: center;
-    color: #fff;
+    color: #ececec;
     font-style: 700;
     letter-spacing: 1px;
     margin: 15px 0px 0px;
@@ -314,13 +322,13 @@
   }
   
   input[type=submit]:hover {
-    background-color: #707070;
+    background-color: #808080;
   }
   
   .footer {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #ececec;
     padding-bottom: 50px;
   }
   
@@ -421,7 +429,7 @@
       
     .nav-ul.active {
       display: block;
-      background-color: rgba(245, 245, 245, 1);
+      background-color: #ececec;
       padding-top: 10%;
       padding-left: 5%;
       position: fixed;
@@ -570,7 +578,7 @@
   
     .nav-ul.active {
       display: block;
-      background-color: rgba(245, 245, 245, 1);
+      background-color: #ececec;
       padding-top: 10%;
       padding-left: 5%;
       position: fixed;
@@ -736,7 +744,7 @@
     
     ::-webkit-scrollbar-thumb {
       border-radius: 5px;
-      background-color: #707070;
+      background-color: #808080;
     }
   
     .arrow {
@@ -796,7 +804,7 @@
     }
     
     .menu-label {
-      color: #707070;
+      color: #808080;
       font-weight: 700;
       font-size: 18px;
       opacity: 0;
@@ -806,7 +814,7 @@
     .indicator {
       border-width: 2px;
       border-style: solid;
-      border-color: #fd7d4e;
+      border-color: #e6acad;
       border-radius: 50%;
       transition: transform 0.1s;
       height: 15px;
@@ -815,17 +823,17 @@
     }
     
     .indicator:hover {
-      background: #707070;
+      background: #808080;
       border-width: 2px;
       border-style: solid;
-      border-color: #707070;
+      border-color: #808080;
     }
     
     .nav-ul li .active {
-      background: #707070;
+      background: #808080;
       border-width: 2px;
       border-style: solid;
-      border-color: #707070;
+      border-color: #808080;
     }
     
     .nav-ul li .active ~ .menu-label{
